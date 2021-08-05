@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+    </head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Neerja Modi School</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#campus_life">Campus Life</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#new">What's New</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div class="announcement">
+  <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    ***  Feel free to ask queries on nmsjaipur@gmail.com  ***
+    </marquee>
+</div>
+
+<iframe id="video" src="https://www.youtube.com/embed/watch?v=GoxCG7Rkg3g"  height="450" width="1000" frameborder="0"  ></iframe>
+  
+  
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+    <h2 class="text-capitalize ">Contact Us</h2>
+</div>
+
+  <div id="map" >
+    <iframe src="https://www.google.com/maps/embed?/place/Primary+Block+NMS/@26.8676222,75.7563409,15z/data=!3m1!4b1!4m5!3m4!1s0x396db5cf974479c9:0xd0885f7b80fae7a2!8m2!3d26.8675784!4d75.7650981" height="450" width="450" frameborder="0"  allowfullscreen=""></iframe>
+  </div>
+    <div id="details">
+      <img src="data:image/jpeg;base64,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" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+      <h3>Principal Name: </h3>
+      <h4>Mrs. Indu Dubey </h4>
+          <div class="contact_1" >
+             <a href="mailto:school@gmail.com?Subject=Hi">
+                 <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;nmsjaipur@gmail.com</h5>
+              </a> 
+             <a href="#"> 
+                 <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;Neerja Modi School</h5>
+              </a> 
+              <a href="#"> 
+                <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;9916001600</h5>
+             </a> 
+          </div>
+        </div>
+  </div>
